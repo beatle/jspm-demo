@@ -1,0 +1,38 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "jspm install",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatle/pm-demo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatle/pm-demo-app/issues"
+  },
+  "homepage": "https://github.com/beatle/pm-demo-app#readme",
+  "devDependencies": {
+    "connect": "^3.3.5",
+    "jspm": "^0.15.7",
+    "serve-static": "^1.9.3"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "handlebars": "github:components/handlebars.js@^3.0.3",
+      "jquery": "github:components/jquery@^2.1.4",
+      "text": "github:systemjs/plugin-text@^0.0.2"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
